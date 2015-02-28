@@ -11,7 +11,6 @@ module.exports = function (config) {
             'test/config/test-main.js',
             {pattern: 'public_html/js/**/*.js', included: false},
             {pattern: 'test/config/expect.js', included: false},
-            {pattern: 'test/config/unexpect.js', included: false},
             {pattern: 'test/*Spec.js', included: false}
         ],
         exclude: [],
